@@ -1,0 +1,98 @@
+@import '../../assets/sass/variables';
+@import '../../assets/sass/general.scss';
+
+.passions {
+  display: flex;
+  justify-content: center;
+  min-height: $contentHeight;
+  background-color: $offset-color;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.35);
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.35);
+  @media screen and (max-width: $bp-sm) {
+    min-height: unset;
+    flex-direction: column;
+  }
+}
+.passionsContainer {
+  width: 100%;
+  max-width: $container-width;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  @media screen and (max-width: $bp-sm) {
+    flex-direction: column;
+    padding-bottom: $grid-large;
+  }
+}
+.passionsSkillsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.passionsHeroContainer {
+  img {
+    width: 100%;
+  }
+}
+.passionsSkillsContainer, .passionsHeroContainer {
+  width: 50%;
+  padding: $grid-large 0 $grid-large 0;
+  @media screen and (max-width: $bp-sm) {
+    padding: 0;
+    width: 100%;
+  }
+}
+.heroContent, .skillsContent {
+  padding: $grid-large;
+}
+.heroContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  @media screen and (max-width: $bp-sm) {
+    padding-bottom: 0;
+  }
+}
+.skillsHeader {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: $grid-small;
+  @media screen and (max-width: $bp-sm) {
+    text-align: center;
+  }
+  @media screen and (max-width: $bp-xs) {
+    font-size: 22px;
+  }
+}
+.skillsSubHeader {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  @media screen and (max-width: $bp-sm) {
+    text-align: center;
+  }
+}
+.skillContainer {
+  display: flex;
+  padding: $grid-small $grid-large $grid-small $grid-large;
+  @media screen and (max-width: $bp-sm) {
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: $grid-large;
+  }
+}
+.skillHeader {
+  font-weight: 600;
+  font-size: 22px;
+  @media screen and (max-width: $bp-xs) {
+    font-size: 18px;
+  }
+}
+.skillDescription {
+  font-size: 18px;
+  line-height: 30px;
+}

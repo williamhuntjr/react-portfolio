@@ -1,0 +1,29 @@
+@import './variables.scss';
+
+html {
+  scroll-behavior: smooth;
+  font-size: 18px;
+}
+.alertText {
+  font-weight: 500;
+  color: $color-primary;
+}
+.boldText {
+  font-weight: bold;
+}
+.carousel .control-dots .dot {
+  box-shadow: unset;
+  background: $white-color;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+ }
+ .carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover {
+   background: $color-primary;
+ }
+ .carousel .control-next.control-arrow:before {
+   border-left: 8px solid black;
+ }
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid black;
+}

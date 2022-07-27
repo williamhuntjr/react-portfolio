@@ -1,0 +1,137 @@
+@import '../../assets/sass/variables';
+@import '../../assets/sass/general.scss';
+
+$bioPhotoWidth: 250px;
+
+.bio {
+  min-height: $contentHeight;
+  background-color: $offset-color;
+  @media screen and (max-width: $bp-sm) {
+    min-height: unset;
+  }
+}
+.bioContent {
+  display: flex;
+  max-width: $container-width;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (max-width: $bp-sm) {
+    flex-direction: column-reverse;
+  }
+}
+.bioHeader {
+  font-size: 46px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  @media screen and (max-width: $bp-sm) {
+    font-size: 42px;
+    text-align: center;
+  }
+  @media screen and (max-width: $bp-xs) {
+    font-size: 32px;
+  }
+}
+.bioSubHeader {
+  font-size: 30px;
+  margin-bottom: $grid-large;
+  font-weight: 300;
+  margin-top: 0;
+  @media screen and (max-width: $bp-sm) {
+    font-size: 26px;
+    text-align: center;
+  }
+  @media screen and (max-width: $bp-xs) {
+    font-size: 20px;
+  }
+}
+.bodyParagraph {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 0 $grid-large 0;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  @media screen and (max-width: $bp-sm) {
+    text-align: center;
+  }
+}
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  min-height: 100vh;
+  @media screen and (max-width: $bp-sm) {
+    min-height: unset;
+    width: 100%;
+  }
+}
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: $grid-large;
+}
+.headerContent, .logoContent {
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (max-width: $bp-sm) {
+    max-width: 100%;
+  }
+}
+.bioContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  min-height: 100vh;
+  text-align: center;
+  justify-content: center;
+  button {
+    margin-right: $grid-small;
+  }
+  @media screen and (max-width: $bp-sm) {
+    min-height: unset;
+    width: 100%;
+  }
+}
+.bioLinks {
+  button {
+    margin-right: $grid-small !important;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  @media screen and (max-width: $bp-sm) {
+    text-align: center;
+    padding-bottom: $grid-large;
+  }
+}
+.bioButton {
+  margin-right: $grid-small !important;
+}
+.bioTitleBreak {
+  display: none;
+  @media screen and (max-width: $bp-xs) {
+    display: block;
+  }
+}
+.bioPhoto {
+  margin: $grid-giant $grid-large $grid-giant $grid-large;
+  max-width: $bioPhotoWidth;
+  @media screen and (max-width: $bp-sm) {
+    margin: $grid-giant $grid-large $grid-large $grid-large;
+  }
+  @media screen and (max-width: $bp-xs) {
+    display: none;
+  }
+}
+.bioAvatar {
+  margin: $grid-giant $grid-large 0 $grid-large;
+  display: none;
+  @media screen and (max-width: $bp-xs) {
+    display: block;
+  }
+}

@@ -1,0 +1,97 @@
+@import '../../assets/sass/variables';
+@import '../../assets/sass/general.scss';
+
+.skillset {
+  display: flex;
+  justify-content: center;
+  min-height: $contentHeight;
+  @media screen and (max-width: $bp-sm) {
+    min-height: unset;
+    flex-direction: column;
+  }
+}
+.skillsetBodyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-primary;
+  color: $white-color;
+}
+.skillsetIconsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skillsetBodyContainer, .skillsetIconsContainer {
+  width: 50%;
+  @media screen and (max-width: $bp-sm) {
+    width: 100%;
+  }
+}
+.bodyContent, .iconsContent {
+  padding: $grid-giant;
+  @media screen and (max-width: $bp-sm) {
+    padding: $grid-large;
+  }
+}
+.skillsetHeader {
+  font-size: 46px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  @media screen and (max-width: $bp-sm) {
+    font-size: 42px;
+    text-align: center;
+  }
+  @media screen and (max-width: $bp-xs) {
+    font-size: 36px;
+  }
+}
+.skillsetSubHeader {
+  font-size: 30px;
+  margin-bottom: $grid-large;
+  font-weight: 300;
+  margin-top: 0;
+  @media screen and (max-width: $bp-sm) {
+    font-size: 26px;
+    text-align: center;
+  }
+  @media screen and (max-width: $bp-sm) {
+    font-size: 22px;
+  }
+}
+.bodyParagraph {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 0 $grid-large 0;
+  @media screen and (max-width: $bp-sm) {
+    text-align: center;
+  }
+}
+.skillsetIconRow {
+  display: flex;
+  border-bottom: solid 1px rgba(0,0,0,0.10);
+  &:last-child {
+    border-bottom: none;
+  }
+}
+.skillsetIconContainer {
+  width: 50%;
+  padding: $grid-small;
+  &:first-child {
+    border-right: solid 1px rgba(0,0,0,0.10);
+
+  }
+  
+  img {
+    width: 100%;
+    max-width: 220px;
+    display: block;
+    margin: 0 auto 0 auto;
+    opacity: 0.75;
+    &:hover {
+      opacity: 1.0;
+      transition: .2s;
+    }
+  }
+}

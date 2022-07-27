@@ -1,0 +1,98 @@
+@import '../assets/sass/variables';
+
+$letsConnectWidth: 640px;
+
+.letsConnect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: $mainHeight;
+  padding: 0 $grid-large 0 $grid-large;
+  color: $white-color;
+  background-color: $color-secondary;
+}
+.letsConnectContent {
+  width: 100%;
+  max-width: $letsConnectWidth;
+  padding: $grid-large 0 $grid-large 0;
+}
+.letsConnectHeader {
+  font-size: 32px;
+  margin-bottom: $grid-small;
+  text-align: center;
+}
+.letsConnectSubHeader {
+  margin: 0;
+  text-align: center;
+  margin-bottom: $grid-large;
+}
+.letsConnectFormRow {
+  display: flex;
+  width: 100%;
+  @media screen and (max-width: $bp-sm) {
+    flex-direction: column;
+  }
+}
+.letsConnectFormCol {
+  width: 50%;
+  padding: 0 $grid-small 0 $grid-small;
+  @media screen and (max-width: $bp-sm) {
+    width: 100%;
+    padding: 0;
+  }
+}
+.letsConnectTextField {
+  width: 100%;
+  margin-bottom: $grid-large !important;
+}
+.letsConnectSelectArea {
+  width: 100%;
+  color: $white-color;
+  textarea {
+    color: $white-color;
+
+  }
+  label {
+    color: $white-color;
+    margin-top: $grid-small !important;
+  }
+  &:after {
+    border-bottom: solid 10px $color-primary !important;
+  }
+}
+.letsConnectSelectAreaContainer {
+  padding: 0 $grid-small $grid-small $grid-small;
+  margin-bottom: 0;
+  @media screen and (max-width: $bp-sm) {
+    padding: 0;
+  }
+}
+.letsConnectFormCheckbox {
+  padding: 0 $grid-small $grid-small $grid-small;
+  @media screen and (max-width: $bp-sm) {
+    padding: $grid-small 0 $grid-small 0;
+  }
+}
+.formCheckbox {
+  padding: 0 $grid-small 0 $grid-small;
+}
+.formCheckBoxLabel {
+  padding-left: 0 !important;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+.formInput {
+  width: 100% !important;
+  padding: 10px !important;
+  background-color: $white-color !important;
+}
+.formInputContainer {
+  width: 100% !important;
+  margin-bottom: $grid-large;
+  &:after {
+    border-bottom: solid 4px $color-primary !important;
+  }
+}

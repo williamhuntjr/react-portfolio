@@ -1,0 +1,89 @@
+@import '../assets/sass/variables';
+
+$projectContentWidth: 720px;
+
+.myProject {
+  width: 49.95%;
+  border-bottom: $border-disabled;
+  &:nth-child(odd) {
+    border-right: $border-disabled;
+  }
+  @media screen and (max-width: $bp-md) {
+    width: 100%;
+    &:nth-child(odd) {
+      border-right: none;
+    }
+  }
+}
+.myProjects {
+  display: flex;
+  flex-wrap: wrap;
+}
+.myProjectContent {
+  max-width: $projectContentWidth;
+  text-align: center;
+  padding: $grid-base;
+  margin-left: auto;
+  margin-right: auto;
+}
+.myProjectHeader {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.myProjectSubHeader {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.myProjectDescription {
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: $grid-small;
+  margin-top: $grid-large;
+}
+.myProjectThumbnail img {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.myProjectBadges {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  @media screen and (max-width: $bp-xs) {
+    display: block;
+  }
+}
+.badge {
+  padding: 10px;
+  margin-right: $grid-small;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.badgeSecondary {
+  background-color: $color-primary;
+  color: $white-color;
+}
+.badgeDiscontinued {
+  background-color: $color-secondary;
+  color: $white-color;
+}
+.buttonContainer {
+  margin-bottom: $grid-large;
+}
+.visitButton {
+  background-color: rgba(40, 40, 40, 0.07) !important;
+}
+.pagination {
+  display:flex;
+  justify-content: center;
+  margin: $grid-large $grid-base $grid-large $grid-base;
+  
+}

@@ -1,0 +1,20 @@
+@import '../../assets/sass/variables';
+
+.sidebarContent {
+  padding: 50px $grid-small $grid-small $grid-small;
+  color: $medium-gray;
+}
+.menuToggle {
+  position: fixed;
+  top: $grid-small;
+  right: $grid-small;
+  z-index: 9999;
+}
+.toggleButton {
+  min-width: 0 !important;
+  background-color: #fafafa !important;
+  border-radius: 0 !important;
+}
+.divider {
+  border-color: rgba(0,0,0,0.50);
+}

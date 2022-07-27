@@ -1,0 +1,18 @@
+@import '../../assets/sass/variables';
+
+.footer {
+  background-color: #212121;
+  color: $white-color;
+}
+.footerContent {
+  padding: $grid-base;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerIcon {
+  padding: 0 $grid-small 0 $grid-small;
+}
+.footerIconContainer a {
+  color: #fff !important;
+}
