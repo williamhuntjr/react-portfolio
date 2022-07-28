@@ -105,13 +105,13 @@ export const Sidebar: FC = () => {
             </List>
             <Divider className={styles.divider} />
             <List className={styles.navList}>
-              <ListItem button component={Link} classes={{ selected: classes.selected }} href="https://www.github.com/huntdesignco">
+              <ListItem button component={Link} classes={{ selected: classes.selected }} href="https://www.github.com/williamhuntjr">
                 <ListItemIcon className={classes.icon}>
                   <GitHubIcon />
                 </ListItemIcon>
                 <ListItemText primary="GitHub" />
               </ListItem>
-              <ListItem button component={Link} classes={{ selected: classes.selected }} href="https://www.linkedin.com/in/huntdesignco">
+              <ListItem button component={Link} classes={{ selected: classes.selected }} href="https://www.linkedin.com/in/williamhuntjr">
                 <ListItemIcon className={classes.icon}>
                   <LinkedInIcon />
                 </ListItemIcon>
