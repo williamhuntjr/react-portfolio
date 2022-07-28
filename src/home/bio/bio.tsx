@@ -12,10 +12,10 @@ export const Bio: FC = () => {
               Hi there. <br className={styles.bioTitleBreak} />I am William.
             </p>
             <p className={styles.bioSubHeader}>
-              I am a freelance Web Developer.
+              I am a Full Stack Developer.
             </p>
             <p className={styles.bodyParagraph}>
-              Hi, <span className="alertText">my name is William Hunt Jr</span>. I love my job and my customers. I enjoy writing code in all languages, but my primary focus is front-end React development. While I enjoy coding mostly front-end, I also have experience with REST API development. I am proficient with Python/Flask for custom API development.
+              Hi, <span className="alertText">my name is William Hunt Jr</span>. I love my job and my customers. I enjoy writing code in all languages, but my primary focus is front-end <span className="boldText">React.js</span> development. While I enjoy coding mostly front-end, I also have experience with REST API development. I am proficient with <span className="boldText">Python/Flask</span> for custom API development.
             </p>
             <p className={styles.bodyParagraph}>
               I enjoy building web applications and websites and have been doing it since I was just a kid. I strive to improve my skills and learn something new everyday.

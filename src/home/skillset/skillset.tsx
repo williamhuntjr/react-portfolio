@@ -13,10 +13,10 @@ export const Skillset: FC = () => {
             From back-end to front-end.
           </div>
           <div className={styles.bodyParagraph}>
-            I have been managing Linux operating systems since I was just a kid. I am an experienced <span className="boldText">Redhat Linux</span> system administrator with 7+ years experience. I use Ansible and Jenkins for process automation. I have experience managing servers in <span className="boldText">Amazon Web Services</span>. 
+            I have been managing Linux operating systems since I was just a kid. I am an experienced <span className="boldText">Redhat Linux</span> system administrator with 7+ years experience. I use Ansible, Docker and Jenkins for process automation. I have experience managing servers in <span className="boldText">Amazon Web Services</span>. 
           </div>
           <div className={styles.bodyParagraph}>
-            I have worked primarily as a DevOps Engineer, but I code in my free time. I have been writing <span className="boldText">HTML</span>, <span className="boldText">CSS</span>, and <span className="boldText">JavaScript</span> now for over 15 years. Currently, I am working full-time as a <span className="boldText">React Developer</span>.
+            I have worked primarily as a Linux DevOps Engineer, but I code in my free time. I have been writing <span className="boldText">HTML</span>, <span className="boldText">CSS</span>, and <span className="boldText">JavaScript</span> now for over 15 years. Currently, I am working full-time as a hybrid <span className="boldText">DevOps Engineer</span> and <span className="boldText">React.js Developer</span>.
           </div>
         </div>
       </div>

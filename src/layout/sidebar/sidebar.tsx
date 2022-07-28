@@ -49,19 +49,19 @@ export const Sidebar: FC = () => {
   useEffect(() => {
     setRoutes([
       {
-        "label": "Home",
-        "icon": <HomeIcon />,
-        "path": "/"
+        label: "Home",
+        icon: <HomeIcon />,
+        path: "/"
       },
       {
-        "label": "My Projects",
-        "icon": <CollectionsIcon />,
-        "path": "/my-projects"
+        label: "My Projects",
+        icon: <CollectionsIcon />,
+        path: "/my-projects"
       },
       {
-        "label": "Lets Connect",
-        "icon": <DraftsIcon />,
-        "path": "/lets-connect"
+        label: "Lets Connect",
+        icon: <DraftsIcon />,
+        path: "/lets-connect"
       }
     ])
   }, [])

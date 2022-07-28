@@ -14,7 +14,7 @@ export const Why: FC = () => {
         <div className={styles.cardContainer}>
           <div className={styles.card}>
             <div className={styles.cardHeader}>
-              I'm Quick
+              I'm quick
             </div>
             <div className={styles.cardContent}>
               <div className={styles.cardAvatar}>
@@ -50,7 +50,7 @@ export const Why: FC = () => {
         <div className={styles.cardContainer}>
           <div className={styles.card}>
             <div className={styles.cardHeader}>
-              Optimized Hosting
+              I will deploy it
             </div>
             <div className={styles.cardContent}>
               <div className={styles.cardAvatar}>

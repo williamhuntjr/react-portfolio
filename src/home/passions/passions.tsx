@@ -13,7 +13,7 @@ export const Passions: FC = () => {
         <div className={styles.passionsSkillsContainer}>
           <div className={styles.skillsContent}>
             <div className={styles.skillsHeader}>
-              The stuff I'm really good at.
+              The things I enjoy the most.
             </div>
             <div className={styles.skillsSubHeader}>
               I may have a lot of different skills, but I have some that I enjoy more than others.
@@ -28,7 +28,7 @@ export const Passions: FC = () => {
                 Design to HTML conversion
               </div>
               <div className={styles.skillDescription}>
-                I will convert your <span className="alertText">Photoshop</span> or <span className="alertText">Sketch</span> designs to HTML using the <span className="alertText">Bootstrap 4</span>, <span className="alertText">Material UI</span>, or any other UI framework.
+                I will convert your <span className="boldText">Photoshop</span> or <span className="boldText">Sketch</span> designs to HTML using the <span className="boldText">Bootstrap 4</span>, <span className="boldText">Material UI</span>, or any other UI framework.
               </div>
             </div>
           </div>
@@ -42,7 +42,7 @@ export const Passions: FC = () => {
                 Front-end JavaScript Development
               </div>
               <div className={styles.skillDescription}>
-                I have always enjoyed writing code for UIs. I have experience with <span className="alertText">React.js</span> and <span className="alertText">WordPress</span>.
+                I have always enjoyed writing code for UIs. I have experience with <span className="boldText">React.js</span> and <span className="boldText">WordPress</span>.
               </div>
             </div>
           </div>

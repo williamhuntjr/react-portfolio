@@ -86,6 +86,7 @@
   }
 }
 .skillHeader {
+  color: $color-primary;
   font-weight: 600;
   font-size: 22px;
   @media screen and (max-width: $bp-xs) {
