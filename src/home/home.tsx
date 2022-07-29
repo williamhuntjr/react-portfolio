@@ -26,7 +26,7 @@ export const Home: FC = () => {
   return (
     <div className={styles.homeContainer}>
       <Helmet>
-          <title>Web Development | William Hunt Jr</title>
+          <title>Full Stack Developer | William Hunt Jr</title>
       </Helmet>
       <Bio />
       <Why />
