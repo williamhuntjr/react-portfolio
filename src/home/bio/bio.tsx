@@ -21,7 +21,7 @@ export const Bio: FC = () => {
               I enjoy building web applications and websites and have been doing it since I was just a kid. I strive to improve my skills and learn something new everyday.
             </p>
             <div className={styles.bioLinks}>
-              <Button color="secondary" variant="contained" href="https://www.github.com/huntdesignco" className={styles.bioButton}>View GitHub</Button>
+              <Button color="secondary" variant="contained" href="https://www.github.com/williamhuntjr" className={styles.bioButton}>View GitHub</Button>
               <Button color="primary" variant="contained" href="/my-projects">View Projects</Button>
             </div>
           </div>

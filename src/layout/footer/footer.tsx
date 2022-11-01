@@ -9,10 +9,10 @@ export const Footer: FC = () => {
     <div className={styles.footer}>
       <div className={styles.footerContent}>
         <div className={styles.footerIconContainer}>
-          <a href="https://www.github.com/huntdesignco"><GitHubIcon className={styles.footerIcon}/></a>
+          <a href="https://www.github.com/williamhuntjr"><GitHubIcon className={styles.footerIcon}/></a>
         </div>
         <div className={styles.footerIconContainer}>
-          <a href="https://www.linkedin.com/in/huntdesignco"><LinkedInIcon className={styles.footerIcon}/></a>
+          <a href="https://www.linkedin.com/in/williamhuntjr"><LinkedInIcon className={styles.footerIcon}/></a>
         </div>
         <div className={styles.footerIconContainer}>
           <a href="tel://17575068279"><PhoneIphoneIcon className={styles.footerIcon}/></a>
